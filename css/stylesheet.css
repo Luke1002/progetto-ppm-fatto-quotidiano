@@ -174,11 +174,15 @@ body {
     text-transform: uppercase;
 }
 
-.social-media-links .donation-button{
-    position: absolute;
-    right: 2rem;
+.menu-donation-button {
+    grid-row: 2 / 3;
+    background-color: #8e0000;
+    padding: 0.5rem;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-family: "Times New Roman", sans-serif;
 }
-
 .main-body {
     padding: 20px 15px 20px;
 }
@@ -494,6 +498,9 @@ hr {
         top: 0;
         left: 0;
         width:20%;
+    }
+    .dropdown-content {
+        overflow-y: scroll;
     }
 
     .menu-links {
