@@ -113,9 +113,9 @@ body {
 .dropbtn:hover, .dropbtn:focus {
     background-color: #8c8c8c;
 }
-
 /* Dropdown Content (Hidden by Default) */
 .dropdown-content {
+    overflow-y: scroll;
     display: none;
     position: fixed;
     top:0;
@@ -498,9 +498,6 @@ hr {
         top: 0;
         left: 0;
         width:20%;
-    }
-    .dropdown-content {
-        overflow-y: scroll;
     }
 
     .menu-links {
